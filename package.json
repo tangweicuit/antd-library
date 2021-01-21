@@ -1,8 +1,9 @@
 {
   "name": "antd-library",
-  "version": "1.0.0",
-  "description": "基于antd组件封装函数",
+  "version": "1.0.1",
+  "description": "simple antd library",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "start"
   },
