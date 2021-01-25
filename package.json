@@ -1,6 +1,6 @@
 {
   "name": "antd-library",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "simple antd library",
   "main": "index.js",
   "types": "index.d.ts",

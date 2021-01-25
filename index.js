@@ -32,3 +32,15 @@ export function getSearchParams(
   newParams = handleParams(newParams);
   return newParams;
 }
+
+/**
+ *
+ * @param {String} fileurl 文件地址
+ * @param {String} filename 文件名称
+ */
+export function download(fileurl, filename) {
+  const a = document.createElement("a");
+  a.setAttribute("download", filename);
+  a.setAttribute("href", fileurl);
+  a.click();
+}
