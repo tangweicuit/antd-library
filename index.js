@@ -44,3 +44,14 @@ export function download(fileurl, filename) {
   a.setAttribute("href", fileurl);
   a.click();
 }
+
+/**
+ * 
+ * @param {any} params 
+ * @param {Number} number 
+ */
+export function dely(params, number) {
+  setTimeout(() => {
+    console.log(params);
+  }, 5000 * number);
+}
